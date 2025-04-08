@@ -28,11 +28,11 @@ To run an individual testcase use
 `bin/a.out -t <file>`. Use `ref.out -t <file>` for the reference output.
 
 # Instructions:
-1. ssh into your favorite UTCS lab machine
-2. Create a file `~/.gdbinit`
-3. Add the line `set history save on` to `~/.gdbinit`
-4. Clone this repository
-5. Read then use the Makefile
+1.      ssh into your favorite UTCS lab machine
+2.      Create a file `~/.gdbinit`
+3.      Add the line `set history save on` to `~/.gdbinit`
+4.      Clone this repository
+5.      Read then use the Makefile
 6. Debug the test cases using gdb; you must use gdb to pass this mastery assessment.
 7. To the best of your ability, ensure your output matches the reference exactly.
 8. Write the outputs of the `history` command to a file in this repo called `shell_logs.txt`
