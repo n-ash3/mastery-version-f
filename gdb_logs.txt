@@ -80,3 +80,22 @@ make clean
 make debug
 r bin/a.out -t testcases/short1.rep
 q
+r bin/a.out -t testcases/short1.rep 
+bt
+make clean
+make debug
+r bin/a.out -t testcases/short1.rep 
+vt
+make clean
+make debug
+r bin/a.out -t testcases/short1.rep 
+q
+r bin/a.out -t testcases/short5.rep 
+bt
+make clean
+make debug
+make clena
+make clean
+make debug
+r bin/a.out -t testcases/short5.rep 
+q
